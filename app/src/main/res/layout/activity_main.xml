@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardCornerRadius="32dp"
+            app:cardBackgroundColor="#7165E3"
+            android:layout_margin="16dp">
+
+        <com.idrok.customchart.SmoothLineChartEquallySpaced
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:id="@+id/chart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        </androidx.cardview.widget.CardView>
+
+<!--        <com.idrok.customchart.ArcProgressBar-->
+<!--            android:layout_width="227dp"-->
+<!--            android:layout_height="227dp"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:progress="60"-->
+<!--            android:max="100"-->
+<!--            app:titleText="7,235"-->
+<!--            app:subtitleText="шаги"-->
+<!--            app:titleTextSize="24sp"-->
+<!--            app:setImage="@drawable/ic_foot"-->
+<!--            app:borderWidth="18dp"-->
+<!--            app:backgroundColor="#E5E0FF"-->
+<!--            app:progressColor="#7165E3"-->
+<!--            app:drawDirection="clockwise"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:startAngle="90" />-->
+
+<!--        <com.idrok.customchart.CustomBarChart-->
+<!--            android:id="@+id/cbc"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="336dp"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:barWidth="24dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:titleText="Калории"-->
+<!--            app:titleTextSize="16sp" />-->
+
+<!--    <com.idrok.customchart.CustomSmallProgress-->
+<!--        android:id="@+id/csp_calories"-->
+<!--        android:layout_width="63dp"-->
+<!--        android:layout_height="63dp"-->
+<!--        android:layout_margin="16dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/csp_distance"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:progressWidth="8dp"-->
+<!--        app:setImage="@drawable/ic_calories"-->
+<!--        app:setProgress="60" />-->
+
+<!--    <com.idrok.customchart.CustomSmallProgress-->
+<!--        android:id="@+id/csp_distance"-->
+<!--        android:layout_width="63dp"-->
+<!--        android:layout_height="63dp"-->
+<!--        android:layout_margin="16dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/csp_time"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/csp_calories"-->
+<!--        app:progressBackground="#DDD3F5"-->
+<!--        app:progressColor="#AF8EFF"-->
+<!--        app:progressWidth="8dp"-->
+<!--        app:setImage="@drawable/ic_location"-->
+<!--        app:setProgress="20" />-->
+
+<!--    <com.idrok.customchart.CustomSmallProgress-->
+<!--        android:id="@+id/csp_time"-->
+<!--        android:layout_width="63dp"-->
+<!--        android:layout_height="63dp"-->
+<!--        android:layout_margin="16dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/csp_distance"-->
+<!--        app:progressBackground="#CFE3F9"-->
+<!--        app:progressColor="#117FFC"-->
+<!--        app:progressWidth="8dp"-->
+<!--        app:setImage="@drawable/ic_time"-->
+<!--        app:setProgress="40" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

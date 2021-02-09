@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleTextSize" format="dimension" />
+    <attr name="titleText" format="string" />
+    <attr name="progressColor" format="color"/>
+    <attr name="setImage" format="integer"/>
+
+    <declare-styleable name="ArcProgressBar">
+        <attr name="borderWidth" format="dimension" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="progressColor"/>
+        <attr name="startAngle" format="integer" />
+        <attr name="setImage" />
+        <attr name="titleTextSize" />
+        <attr name="subtitleTextSize" format="dimension" />
+        <attr name="titleText" />
+        <attr name="subtitleText" format="string" />
+        <attr name="dashLineWidth" format="dimension" />
+        <attr name="drawDirection" format="enum">
+            <enum name="anti_clockwise" value="0" />
+            <enum name="clockwise" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomBarChart">
+        <attr name="bottomTextSize" format="dimension" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="HorizontalLineWidth" format="dimension" />
+        <attr name="titleTextSize" />
+        <attr name="bottomTextColor" format="color" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="horizontalLineColor" format="color" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="titleText" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSmallProgress">
+        <attr name="progressColor"/>
+        <attr name="progressBackground" format="color"/>
+        <attr name="progressWidth" format="dimension"/>
+        <attr name="setImage"/>
+        <attr name="setProgress" format="integer"/>
+    </declare-styleable>
+
+</resources>
